@@ -1,0 +1,248 @@
+@media all and (min-width:760px){
+    body{
+        box-sizing: border-box;
+        width:auto;
+        height: auto;
+        margin: 5% 10%;
+        color: #000;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid white;
+    }
+    body main{
+        background-color: rgb(255, 245, 245);
+    }
+    nav{
+        background-color: rgba(0, 255, 255, 0.327);
+        display: grid;
+        margin: 10px;
+        height: 0, auto;
+        border-radius: 4px;
+        box-shadow: 4px -5px 15px rgb(255, 0, 0) ,-4px 5px 15px rgb(0, 213, 255);;
+        
+    }
+    nav #logo{
+        height: 70px;
+        width:230px;
+        margin: 10px;
+        border: 5px solid red;
+        border-radius: 10px;
+        position: absolute;
+        box-shadow: 4px 5px 6px rgba(0, 240, 228, 0.915) ,-4px 5px 60px rgb(234, 0, 255); 
+        
+    }
+    nav #logo:hover{
+        box-shadow: 4px 5px 15px rgb(212, 255, 0);
+    }
+    nav #navli li{
+        float: right;
+        background-color: beige;
+        padding: 20px;
+        margin: 10px;
+        list-style-type: none;
+        border-radius: 5px;
+        box-shadow: 4px 5px 60px gray ,inset 4px 5px 60px rgba(255, 166, 0, 0.358);
+    }
+    nav #navli li:hover{
+        box-shadow: 4px 5px 15px red;
+    }
+    .allCampus{
+        width:96%;
+        display:inline-block;
+        background-color: rgba(127, 255, 212, 0.38);
+    }
+    .allCampus li{
+        padding: 10px;
+        display: block;
+        float: right;
+        color: bisque;
+        text-align: center;
+        background-color: rgba(173, 216, 230, 0.601);
+        width: 155px;
+        height: 35px;
+        list-style: none;
+        margin: 10px 10px;
+        box-shadow: -4px 5px 7px rgb(226, 141, 247),inset 4px 5px 7px rgba(112, 110, 110, 0.47);;
+    }
+    .allCampus li:hover{
+        box-shadow: 4px 5px 8px rgb(230, 135, 235),4px 5px 8px rgb(135, 208, 235);
+    }
+    }
+    
+@media only screen and (min-width:360px){
+    body{
+        box-sizing: border-box;
+        width:auto;
+        height: auto;
+        margin: 5% 10%;
+        color:blue;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid white;
+    }
+    body:hover{
+        
+        text-shadow: 4px 5px 7px rgb(159, 248, 246);
+    }
+    body main{
+        background-image: linear-gradient(120deg,white, pink,skyblue,white,blue, pink);
+    }
+    nav{
+        background-color: rgba(0, 255, 255, 0.327);
+        display: grid;
+        margin: 10px;
+        height: 0, auto;
+        border-radius: 4px;
+        box-shadow: 4px -5px 15px rgb(255, 0, 0) ,-4px 5px 15px rgb(0, 213, 255);;
+        
+    }
+    nav #logo{
+        height: 70px;
+        width:230px;
+        margin: 10px;
+        border: 5px solid red;
+        border-radius: 10px;
+        box-shadow: 4px 5px 6px rgba(0, 240, 228, 0.915) ,-4px 5px 60px rgb(234, 0, 255); 
+        
+    }
+    nav #logo:hover{
+        box-shadow: 4px 5px 15px rgb(212, 255, 0);
+    }
+    nav #navli li{
+        display: inline-block;
+        background-color: beige;
+        padding: 20px;
+        margin: 10px;
+        list-style-type: none;
+        border-radius: 5px;
+        box-shadow: 4px 5px 60px gray ,inset 4px 5px 60px rgba(255, 166, 0, 0.358);
+    }
+    nav #navli li:hover{
+        box-shadow: 4px 5px 15px red;
+    }
+    h2{
+        background-color: wheat;
+        margin: 10px;
+        box-shadow: 6px 7px 55px red;
+    }
+    .allCampus{
+        width:0,auto;
+        display:inline-block;
+        background-color: rgba(127, 255, 212, 0.38);
+    }
+    .allCampus li{
+        padding: 10px;
+        display: block;
+        float: left;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        background-color: rgb(165, 165, 165);
+        width: 155px;
+        height: 35px;
+        list-style: none;
+        margin: 10px 10px;
+        box-shadow: -4px 5px 7px rgb(172, 252, 158),inset 4px 5px 7px rgba(112, 110, 110, 0.47);;
+    }
+    .allCampus li:hover{
+        box-shadow: -4px 5px 8px rgb(250, 97, 15),4px 5px 8px rgb(135, 208, 235);
+        width: 280px;
+        color: blue;
+        background-color: lightcyan;
+    }
+    section{
+        background-color: white ;
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 4px;
+        box-shadow: -4px -6px 63px greenyellow;
+    }
+    #location{
+        color:#000;
+    }
+    #campusImgLogo{
+        width: 150px;
+        float: right;
+        padding: 3px;
+        margin: 4px;
+        border-radius: 7px;
+        box-shadow: 4px 3px 6px gray ,inset -4px 5px 7px whitesmoke;
+    }
+    .infoHead{
+        background-color: aliceblue;
+        display: inline-block;
+        margin: 10px;
+    }
+    #environmentInfo li{
+        list-style-type:none;
+        padding: 2px;
+        word-spacing: 4px;
+    }
+    ul li::before{
+        content: "\2665";
+        color: #ff1e00;
+    }
+    .campusInfoImg{
+        width: 150px;
+        float: right;
+        padding: 3px;
+        margin: 4px;
+        border-radius: 7px;
+        box-shadow: 4px 3px 6px gray ,inset -4px 5px 7px whitesmoke;
+    }
+    form{
+        box-shadow: -4px 5px 8px gray;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 12px;
+        background-image: linear-gradient(120deg,pink, white,blue);
+    }
+    #Rules{
+        background-color: aliceblue;
+        text-align: center;
+        margin:20px;
+        color: darkblue;
+        box-shadow: 5px 6px 7px yellowgreen,inset 5px 6px 17px rgba(255, 0, 0, 0.379);
+    }
+    #Rules p{
+        padding: 8px;
+    }
+    #Rules p:hover{
+        text-shadow: -4px 3px 7px gray;
+    }
+    #ngemail{
+        margin: 10px 10px;
+        width: 85%;
+        border: none;
+        border-radius: 5px;
+        padding: 8px;
+        background-color: rgb(231, 248, 249);
+        box-shadow: 5px 4px 6px gray;
+        
+    }
+    #ngemail:hover{
+        border:2px solid rgb(22, 208, 245) ;
+    }
+    #ngsubmit{
+        background-color: rgb(197, 229, 249);
+        margin-top: 10px;
+        width: 35%;
+        border: none;
+        border-radius: 5px;
+        box-shadow: -5px 6px 6px rgb(157, 140, 140),5px -6px 6px rgb(214, 222, 197);
+        position: relative;
+        left: 80px;
+    }
+    #ngsubmit:hover{
+        cursor: pointer;
+        background-color: rgb(252, 183, 250);
+    }
+    .ImportantLinks img{
+        width: 125px;
+        height: 125px;
+        position: relative;
+        display: block;
+        border: 4px solid skyblue;
+        margin: auto;
+        border-radius: 10%;
+       box-shadow:-7px 3px 8px lightcoral;
+    }
+    }

@@ -1,0 +1,176 @@
+@media all and (min-width:760px){
+body{
+    box-sizing: border-box;
+    width: 0 ,auto;
+    height: 0, auto;
+    margin: 5% 10%;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    color: blue;
+}
+body:hover{
+
+    text-shadow: 4px 5px 7px rgb(254, 153, 153);
+}
+body main{
+    background-image: linear-gradient(120deg, white ,blue,pink,white,pink);
+}
+nav{
+    background-color: rgba(0, 255, 255, 0.327);
+    display: grid;
+    margin: 10px;
+    height: 0, auto;
+    border-radius: 4px;
+    box-shadow: 4px -5px 15px rgb(255, 0, 0) ,-4px 5px 15px rgb(0, 213, 255);;
+    
+}
+nav #logo{
+    height: 70px;
+    width:230px;
+    margin: 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 4px 5px 6px rgba(0, 240, 228, 0.915) ,-4px 5px 60px rgb(234, 0, 255); 
+    
+}
+nav #logo:hover{
+    box-shadow: 4px 5px 15px rgb(212, 255, 0);
+}
+nav #navli li{
+    float: right;
+    background-color: beige;
+    padding: 20px;
+    margin: 10px;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: 4px 5px 60px gray ,inset 4px 5px 60px rgba(255, 166, 0, 0.358);
+}
+nav #navli li:hover{
+    box-shadow: 4px 5px 15px red;
+}
+.allCampus{
+    width:96%;
+    display:inline-block;
+    background-color: rgba(127, 255, 212, 0.38);
+}
+.allCampus li{
+    padding: 10px;
+    display: block;
+    float: right;
+    color: bisque;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.601);
+    width: 155px;
+    height: 35px;
+    list-style: none;
+    margin: 10px 10px;
+    box-shadow: -4px 5px 7px rgb(226, 141, 247),inset 4px 5px 7px rgba(112, 110, 110, 0.47);;
+}
+.allCampus li:hover{
+    box-shadow: 4px 5px 8px rgb(230, 135, 235),4px 5px 8px rgb(135, 208, 235);
+}
+}
+
+@media only screen and (min-width:360px){
+    body{
+        box-sizing: border-box;
+        width: 0 ,auto;
+        height: 0, auto;
+        margin: 5% 10%;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid white;
+        color: blue;
+    }
+    body:hover{
+        text-shadow: 4px 5px 7px rgb(244, 4, 4);
+    }
+    body main{
+        background-image: linear-gradient(120deg, white ,blue,pink,white,pink);
+    }
+    nav{
+        background-color: rgba(0, 255, 255, 0.327);
+        display: grid;
+        margin: 10px;
+        height: 0, auto;
+        border-radius: 4px;
+        box-shadow: 4px -5px 15px rgb(255, 0, 0) ,-4px 5px 15px rgb(0, 213, 255);;
+        
+    }
+    nav #logo{
+        height: 70px;
+        width:230px;
+        margin: 10px;
+        border: 5px solid red;
+        border-radius: 10px;
+        box-shadow: 4px 5px 6px rgba(0, 240, 228, 0.915) ,-4px 5px 60px rgb(234, 0, 255); 
+        
+    }
+    nav #logo:hover{
+        box-shadow: 4px 5px 15px rgb(212, 255, 0);
+    }
+    nav #navli li{
+        display: inline-block;
+        background-color: beige;
+        padding: 20px;
+        margin: 10px;
+        list-style-type: none;
+        border-radius: 5px;
+        box-shadow: 4px 5px 60px gray ,inset 4px 5px 60px rgba(255, 166, 0, 0.358);
+    }
+    nav #navli li:hover{
+        box-shadow: 4px 5px 15px red;
+    }
+    .allCampus{
+        width:auto;
+        display:inline-block;
+        background-color: rgba(127, 255, 212, 0.38);
+    }
+    .allCampus li{
+        padding: 10px;
+        display: block;
+        float: left;
+        color: black;
+        text-align: center;
+        background-color: rgb(197, 237, 252);
+        width: 155px;
+        height: 35px;
+        list-style: none;
+        margin: 10px 10px;
+        box-shadow: -4px 5px 7px rgb(226, 141, 247),inset 4px 5px 7px rgba(112, 110, 110, 0.47);;
+    }
+    .allCampus li:hover{
+        width: 210px;
+        color: blue;
+        background-color: lightcyan;
+        box-shadow: 4px 5px 8px rgb(235, 163, 135), inset 4px 5px 8px rgb(135, 208, 235);
+    }
+    #pictures_container{
+        width:auto;
+        height:auto;
+        background-image: linear-gradient(-120deg, white,pink,blue,white,pink);
+        box-shadow: 4px 5px 17px red, inset 8px 7px 85px rgb(145, 145, 145);
+        margin: 10px;
+        border-radius: 4px;
+    
+    }
+    #pictures_container .pictures1 img {
+        width: 150px;
+        margin:20px;
+        color: blue;
+        
+    }
+
+    #pictures_container .pictures1 img:hover{
+        box-shadow: 4px 5px 15px rgb(255, 0, 217);
+        width: 210px;
+    }
+    h3{
+        color: wheat;
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+  
+   
+    }

@@ -1,0 +1,228 @@
+@media all and (min-width:760px){
+body{
+    box-sizing: border-box;
+    width: 0 ,auto;
+    height: 0, auto;
+    margin: 5% 10%;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+}
+body main{
+    background-color: rgb(117, 112, 112);
+
+}
+nav{
+    background-color: rgba(0, 255, 255, 0.327);
+    display:grid;
+    margin: 10px;
+    height: 0, auto;
+    border-radius: 4px;
+    box-shadow: 4px -5px 15px rgb(255, 0, 0) ,-4px 5px 15px rgb(0, 213, 255);;
+    
+}
+nav #logo{
+    height: 70px;
+    width:230px;
+    margin: 10px;
+    position: absolute;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 4px 5px 6px rgba(0, 240, 228, 0.915) ,-4px 5px 60px rgb(234, 0, 255); 
+    
+}
+nav #logo:hover{
+    box-shadow: 4px 5px 15px rgb(212, 255, 0);
+}
+nav #navli li{
+    float: right;
+    background-color: beige;
+    padding: 20px;
+    margin: 10px;
+    list-style-type: none;
+    border-radius: 5px;
+    box-shadow: 4px 5px 60px gray ,inset 4px 5px 60px rgba(255, 166, 0, 0.358);
+}
+nav #navli li:hover{
+    box-shadow: 4px 5px 15px red;
+}
+
+#heading{
+color: rgb(255, 85, 0);
+text-align: center;
+font-size: 60px;
+text-shadow: 3px 4px 6px white;
+}
+#heading{
+color: rgb(250, 246, 246);
+text-align: center;
+font-size: 60px;
+text-shadow: 3px 4px 6px rgb(247, 111, 15);
+}
+#logo2{
+     width: 125px;
+    height: 125px;
+    box-shadow: 4px 5px 60px rgb(7, 242, 218) ,inset 4px 5px 60px rgba(226, 48, 254, 0.857);
+    position: relative;
+    border: 2px solid orangered;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#logo2:hover{
+    box-shadow: -4px 5px 65px red;
+}
+input{
+    background-color: lightcyan;
+    width: 40%;
+    height: 40px;
+    display: block;
+    /* position: relative;
+    left: 300px; */
+    margin: auto;
+    border-radius: 4px;  
+}
+#search{
+    margin-top: 10px;
+}
+#searchBtn{
+    background-color: lightskyblue;
+    margin-top: 10px;
+    width: 20%;
+}
+#searchBtn:hover{
+    cursor: pointer;
+    background-color: rgb(252, 183, 250);
+}
+.allCampus{
+    width:96%;
+    display:inline-block;
+    background-color: rgba(127, 255, 212, 0.38);
+}
+.allCampus li{
+    padding: 10px;
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.601);
+    width: 155px;
+    height: 35px;
+    list-style: none;
+    margin: 10px 10px;
+    box-shadow: -4px 5px 7px rgb(226, 141, 247),inset 4px 5px 7px rgba(112, 110, 110, 0.47);;
+}
+.allCampus li:hover{
+    box-shadow: 4px 5px 8px skyblue;
+}
+}
+
+@media only screen and (min-width:360px){
+    body{
+        box-sizing: border-box;
+        width: 0 ,auto;
+        height: 0, auto;
+        margin: 5% 10%;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid white;
+    }
+    body main{
+        background-color: rgb(179, 233, 245);
+        transition-property: box-shadow;
+    }
+    
+    nav{
+        background-color: rgba(0, 255, 255, 0.327);
+        display:grid;
+        margin: 10px;
+        height: 0, auto;
+        border-radius: 4px;
+        box-shadow: 4px -5px 15px rgb(255, 0, 0) ,-4px 5px 15px rgb(0, 213, 255);;
+        
+    }
+    nav #logo{
+        height: 70px;
+        width:230px;
+        margin: 10px;
+        border: 5px solid red;
+        border-radius: 10px;
+        box-shadow: 4px 5px 6px rgba(0, 240, 228, 0.915) ,-4px 5px 60px rgb(234, 0, 255); 
+        
+    }
+    nav #logo:hover{
+        box-shadow: 4px 5px 15px rgb(212, 255, 0);
+    }
+    nav #navli li{
+        display:inline-block;
+        background-color: beige;
+        padding: 20px;
+        margin: 10px;
+        list-style-type: none;
+        border-radius: 5px;
+        box-shadow: 4px 5px 60px gray ,inset 4px 5px 60px rgba(255, 166, 0, 0.358);
+    }
+    nav #navli li:hover{
+        box-shadow: 4px 5px 15px red;
+    }
+
+    #heading{
+    color: rgb(250, 246, 246);
+    text-align: center;
+    text-shadow: 3px 4px 6px rgb(247, 111, 15);
+    }
+    #logo2{
+         width: 125px;
+        height: 125px;
+        box-shadow: 4px 5px 60px rgb(7, 242, 218) ,inset 4px 5px 60px rgba(226, 48, 254, 0.857);
+        position: relative;
+        border: 2px solid orangered;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+    }
+    #logo2:hover{
+        box-shadow: -4px 5px 65px red;
+    }
+    input{
+        background-color: lightcyan;
+        width: 40%;
+        height: 40px;
+        display: block;
+        /* position: relative;
+        left: 300px; */
+        margin: auto;
+        border-radius: 4px;  
+    }
+    #search{
+        margin-top: 10px;
+    }
+    #searchBtn{
+        background-color: lightskyblue;
+        margin-top: 10px;
+        width: 20%;
+    }
+    #searchBtn:hover{
+        cursor: pointer;
+        background-color: rgb(252, 183, 250);
+    }
+    .allCampus{
+        width:0 auto;
+        display:inline-block;
+        background-color: rgba(127, 255, 212, 0.38);
+    }
+    .allCampus li{
+        padding: 10px;
+        display: block;
+        float: left;
+        text-align: center;
+        background-color:whitesmoke;
+        width: 155px;
+        height: 35px;
+        color: blue;
+        list-style: none;
+        margin: 10px 10px;
+        box-shadow: -4px 5px 7px rgb(226, 141, 247),inset 4px 5px 7px rgba(112, 110, 110, 0.47);;
+    }
+    .allCampus li:hover{
+        background-color: lightpink;
+        box-shadow: 4px 5px 8px skyblue;
+    }
+    }
